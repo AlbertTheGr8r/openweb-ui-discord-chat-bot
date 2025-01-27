@@ -22,8 +22,8 @@ To run this bot, ensure you have the following:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo-name/discord-bot-openweb
-    cd discord-bot-openweb
+    git clone https:/github.com/ajarmoszuk/openweb-ui-discord-chat-bot
+    cd openweb-ui-discord-chat-bot
     ```
 
 2. Install dependencies:
