@@ -60,7 +60,7 @@ The main script for the bot. It includes:
 
 ## Environment Variables
 
-Instead of hardcoding sensitive information, you can use environment variables for configuration:
+You can use environment variables for configuration:
 
 ```bash
 export DISCORD_TOKEN="your-discord-bot-token"
@@ -68,15 +68,6 @@ export OPENWEB_API_URL="http://your-openweb-api-endpoint/api/chat/completions"
 export MODEL_NAME="your-model-name"
 export MONITORED_CHANNEL_ID=123456789012345678
 export OPENWEB_API_KEY="your-openweb-user-jwt-api-key"
-```
-
-Modify the script to retrieve these values using `os.getenv`:
-```python
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-OPENWEB_API_URL = os.getenv("OPENWEB_API_URL")
-MODEL_NAME = os.getenv("MODEL_NAME")
-MONITORED_CHANNEL_ID = int(os.getenv("MONITORED_CHANNEL_ID"))
-OPENWEB_API_KEY = os.getenv("OPENWEB_API_KEY")
 ```
 
 ## Dependencies
