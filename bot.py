@@ -1,7 +1,10 @@
+from dotenv import load_dotenv
 from interactions import Client, Intents, listen
 from interactions.api.events import MessageCreate
 import requests
 import os
+
+load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENWEB_API_URL = os.getenv("OPENWEB_API_URL")
