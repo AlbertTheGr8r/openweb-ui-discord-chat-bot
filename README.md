@@ -31,13 +31,12 @@ To run this bot, ensure you have the following:
     pip install -r requirements.txt
     ```
 
-3. Configure your environment:
-    - Replace the placeholders in the script with your actual values:
-      - `DISCORD_TOKEN`: Your Discord bot token.
-      - `OPENWEB_API_URL`: The OpenWeb API endpoint.
-      - `MODEL_NAME`: The name of the model to use in the OpenWeb API.
-      - `MONITORED_CHANNEL_ID`: The ID of the channel to monitor.
-      - `OPENWEB_API_KEY`: Your OpenWeb API key.
+3. Configure your env file:
+  - `DISCORD_TOKEN`: Your Discord bot token.
+  - `OPENWEB_API_URL`: The OpenWeb API endpoint.
+  - `MODEL_NAME`: The name of the model to use in the OpenWeb API.
+  - `MONITORED_CHANNEL_ID`: The ID of the channel to monitor.
+  - `OPENWEB_API_KEY`: Your OpenWeb API key.
 
 ## Usage
 
